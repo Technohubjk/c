@@ -42,13 +42,19 @@ int main()
     //      break;
 
     // }
-    int index =0;
-    while (index<34)
-    { 
-        cout<<"We are at index number "<<index<<endl;
-        index=index+1;
-        /* code */
-    }
+     int index =0;
+    // while (index<34)
+    // { 
+    //     cout<<"We are at index number "<<index<<endl;
+    //     index=index+1;
+    //     /* code */
+    // }
+    do
+    {
+        cout<<"We are at index number " <<index <<endl;
+         index =index+1;
+
+    } while (index < 33);
     
     return 0;
  
