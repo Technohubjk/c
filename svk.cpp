@@ -14,19 +14,34 @@ int main()
     int age;
     cout<<"Enter your age "<< endl;
     cin>>age;
-    if (age>150)
-    cout<<"Invalid";
-    else if (age>=18)
+    // if (age>150 || age<1)
+    // cout<<"Invalid";
+    // else if (age>=18)
+    // {
+    //     cout<<"You can vote";
+    //     /* code */
+    // }
+    // else
+    // cout<<"you can not vote ";
+    switch (age)
+
     {
-        cout<<"You can vote";
+    case 12:
+          cout<<"you are 12 year old";
+
         /* code */
+        break;
+        case 13:
+               cout<<"you are 18 year old";
+        break;
+        case 14:
+               cout<<"yor are 45 year old";
+        break;
+        default :
+        cout<<" you are neither 12 nor 18 nor 45 year old";
+         break;
+         
     }
-    else
-    cout<<"you can not vote ";
-    return 0;
-
-    
-
     return 0;
  
 
