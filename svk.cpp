@@ -11,9 +11,9 @@ int main()
     // cout<<"The sub is "<< a - b<< endl;
     // cout<<"The mul is "<< a * b<< endl;
     // cout<<"The div is "<<(float) a / b<< endl;
-    int age;
-    cout<<"Enter your age "<< endl;
-    cin>>age;
+    // int age;
+    // cout<<"Enter your age "<< endl;
+    // cin>>age;
     // if (age>150 || age<1)
     // cout<<"Invalid";
     // else if (age>=18)
@@ -23,25 +23,33 @@ int main()
     // }
     // else
     // cout<<"you can not vote ";
-    switch (age)
+    // switch (age)
 
-    {
-    case 12:
-          cout<<"you are 12 year old";
+    // {
+    // case 12:
+    //       cout<<"you are 12 year old";
 
+    //     /* code */
+    //     break;
+    //     case 13:
+    //            cout<<"you are 18 year old";
+    //     break;
+    //     case 14:
+    //            cout<<"yor are 45 year old";
+    //     break;
+    //     default :
+    //     cout<<" you are neither 12 nor 18 nor 45 year old";
+    //      break;
+
+    // }
+    int index =0;
+    while (index<34)
+    { 
+        cout<<"We are at index number "<<index<<endl;
+        index=index+1;
         /* code */
-        break;
-        case 13:
-               cout<<"you are 18 year old";
-        break;
-        case 14:
-               cout<<"yor are 45 year old";
-        break;
-        default :
-        cout<<" you are neither 12 nor 18 nor 45 year old";
-         break;
-         
     }
+    
     return 0;
  
 
