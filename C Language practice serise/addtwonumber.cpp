@@ -5,14 +5,17 @@ using namespace std;
 
 int main()
 {
-    int a,b,c;
-    cout<<"Enter first number a\n :";
-    cin>>a;
-    cout<<"Enter second number b\n";
-    cin>>b;
-    c=a+b;
-    cout<<"\nAddition is : "<<c;
+    int num;
+    cout<<"Enter any non zero number :";
+    cin>>num;
+    if(num>0)
+    {
+        cout<<"Number is positive :\n";
+
+    }
+    else
+    {
+        cout<<"Number is Negative :\n";
+    }
     return 0;
-
-
 }
