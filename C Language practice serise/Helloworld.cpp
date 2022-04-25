@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<iostream>
 using namespace std;
-void main()
+int main()
 {
     cout<<"HEllo world";
 
